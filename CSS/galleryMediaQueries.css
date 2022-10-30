@@ -1,0 +1,112 @@
+@media(min-width: 1900px) and (max-width:2480px){
+    nav div img{
+        width:81%;
+    }
+    h1{
+        font-size:6rem;
+    }
+    nav u1 li{
+        font-size:1.35rem;
+    }
+    .items{
+        width:32.84vw;
+        height:55vh;
+    }
+    #internalbox{
+        display:flex;
+        column-gap:64px;
+        margin-right: 168px;
+    }
+}
+@media(min-width: 1600px) and (max-width:1899px){
+    nav div img{
+        width:85%;
+    }
+    h1{
+        font-size:6rem;
+    }
+    nav u1 li{
+        font-size:1.35rem;
+    }
+    .items{
+        width:32.84vw;
+        height:55vh;
+    }
+    #internalbox{
+        display:flex;
+        column-gap:64px;
+        margin-right: 168px;
+    }
+    
+}
+@media(min-width: 1281px) and (max-width:1599px){
+    nav div img{
+        width:81%;
+    }
+    h1{
+        font-size:6rem;
+    }
+    nav u1 li{
+        font-size:1.35rem;
+    }
+    .items{
+        width:32.84vw;
+        height:55vh;
+    }
+    #internalbox{
+        display:flex;
+        column-gap:64px;
+        margin-right: 168px;
+    }
+    
+}
+@media(min-width: 980px) and (max-width:1399px){
+    nav div img{
+        width:81%;
+    }
+    h1{
+        font-size:6rem;
+    }
+    nav u1 li{
+        font-size:1.35rem;
+    }
+    .items{
+        width:32.84vw;
+        height:55vh;
+    }
+    #internalbox{
+        display:flex;
+        column-gap:64px;
+        margin-right: 168px;
+    }
+    
+}
+@media(min-width: 400pxpx) and (max-width:498px){
+    nav div img{
+        width:73%;
+        position:relative;
+        left:-70px;
+        top:-19px;
+    }
+    h1{
+        font-size:6rem;
+        top:27%
+    }
+    #box{
+        padding-top: 28px;
+    }
+    nav u1 li{
+        font-size:1.35rem;
+    }
+    .items{
+        width:100vw;
+        width:32.84vw;
+        height:55vh;
+    }
+    #internalbox{
+        display:flex;
+        column-gap:64px;
+        margin-right: 168px;
+    }
+    
+}
