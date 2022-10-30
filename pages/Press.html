@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Press.css">
+    <script src="../JS/Press.js"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <title>Discovery - Land Company</title>
+</head>
+<body>
+    <!-- Header -->
+
+    <nav>
+        <div>
+            <img src="data:image/png;base64,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" alt="Discovery logo">
+            <h2> News <br>
+                 and Press</h2>
+        </div>
+    
+        <ul>
+            <li>About DLC</li>
+            <li>Our Worlds</li>
+            <li>Experiences</li>
+            <li>Gallery</li>
+            <li>Press</li>
+        </ul>
+    
+    </nav>
+
+    <!---Body-->
+    <main class="main-container">
+        <div class="main-div main-div1">
+            <div class="heading" style="width: 100%; height: 5%; "></div>
+            <div class="content_image" style="width: 100%; height: 80%; ">
+                <div class="content_imagesub" style="width: 100%; height: 100%;">
+                    <div class="imagebox" style="width: 100%; height: 100%;">
+                        <div id="carouselExampleControls" class="carousel slide  slide1" style="width: 80%; height: 100%;">
+                            <div class="carousel-inner innerslide slideinner" style="width: 100%; height: 100%; position:relative; left: 10%;">
+                                <div class="carousel-item active bootimg"style="width: 100%; height: 100%;">
+                                    <img src="https://dxaurk9yhilm4.cloudfront.net/images/229/Chileno-Map_397186feb8bd51bb37bc24fc2b9b500f.jpg"
+                                        class="d-block w-100 " alt="">
+                                </div>
+                                <div class="carousel-item bootimg">
+                                    <img src="https://dxaurk9yhilm4.cloudfront.net/images/773/summit-Map_190718_114312_397186feb8bd51bb37bc24fc2b9b500f.jpg"
+                                        alt=""  class="d-block w-100 ">
+                                </div>
+                                <div class="carousel-item  bootimg ">
+                                    <img src="https://dxaurk9yhilm4.cloudfront.net/images/383/dunedeck-Map2_397186feb8bd51bb37bc24fc2b9b500f.jpg"
+                                        alt=""  class="d-block w-100 ">
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="whitebox">
+                        <div class="whitebox_sub">
+                        <div id="heading" class="heading"></div>
+                        <div id="content" class="content"></div>
+                        </div>
+
+                    </div>
+                </div>
+            
+            
+            </div>
+            <div claas="button" style="width: 100%; height: 3%; background-color: honeydew; position:relative; top: 3%; ">
+                <button data-bs-target="#carouselExampleControls" id="prevId1" data-bs-slide="prev" style="position: relative; left: 49%; background-color: honeydew; border: none;">➡</button>
+        
+                <button data-bs-target="#carouselExampleControls" style="background-color: honeydew; border: none;position: relative; left: 50%;" id="nextId1" data-bs-slide="next">⬅</button>
+            </div>
+
+            
+                     
+            </div>
+        
+        
+        <div class="main-div  main-div2" >
+            <div  class="main-column-div1"> 
+                <div class="main-heading">
+                    <p class="Pressp">Press<p>
+                </div>
+                <div></div>
+
+            </div>
+            <div class="main-column-div2">
+                <div  class="child-maindiv"> 
+                    <div class="paragraph" id="paragraph1"></div>
+                    <div class="place" id="place1">
+                    </div>
+                    <div class="readArticle" id="article"><span>Read Article</span></div>
+
+                </div>
+                <div  class="child-maindiv"> 
+                    <div class="paragraph" id="paragraph2"></div>
+                    <div class="place" id="place2"></div>
+                    <div class="readArticle" id="article"><span>Read Article</span></div>
+
+                </div>
+
+            </div>
+            <div class="main-column-div2">
+                
+
+
+                <div  class="child-maindiv"> 
+                    <div class="paragraph" id="paragraph3"></div>
+                    <div class="place" id="place3" ></div>
+                    <div class="readArticle" id="article"><span>Read Article</span></div>
+
+                </div>
+
+                <div  class="child-maindiv"> 
+                    <div class="paragraph" id="paragraph4"></div>
+                    <div class="place" id="place4"></div>
+                    <div class="readArticle" id="article"><span>Read Article</span></div>
+
+
+                </div>
+            </div>
+            <div class="main-column-div3">
+                <button data-bs-target="#carouselExampleControls" id="prevId" data-bs-slide="prev" style="position: relative; left: 150px; background-color:white; border: none;">➡</button>
+
+                <button data-bs-target="#carouselExampleControls" id="nextId" data-bs-slide="next" style="background-color:white; border: none;">⬅</button>
+
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div id="box">
+            <img id="footerimg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAA0AD8DASIAAhEBAxEB/8QAHAABAAICAwEAAAAAAAAAAAAAAAUGBAcBAgMI/8QAMRAAAgEDBAECBAUDBQAAAAAAAQIDBAURAAYSITFBUQcTFCIyQmFxgRUWIyRicpKh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANOaaa50HGpul2nfapUcW94UkGY3q3WnVx7qZCoP8anqWio9qW76qdIK3cBAkSkZifp0BPIkAeV44IyHGSRxCcmr1ffb3eJG+qrpnFRLyMUZEcbSYAzwXC57HeMnQZE+zNwROY1oVqJR5ipKiKok/wCsbMf/ADUFLHJDK8UyNHIhKsjjBUjyCPQ6te5JK7bG77vbaW41dLTiYl0hkYLIMclDL4IPLHYIwT0dZ1HWQ73p0pL6Iobpy+VSVyoFMx88CB+IjIHHxjiF4thZQoemsm4UU9urZqOqULNC3FsHIP6g+oI7B9tY2gasOxKSKp3BFJUsiQU6/MeR8cYiSERznrCu6HvrrVe1a/h5CayuudujXnPXUBhhX/d82Js/wFY/xoIKuuE1wuU1wkk+VKWDRhWY8AMBVU+ftAAGfYas2xdttuS60dVQyRmemq4nraUgKRGXGZEA6K+hHp6dHAwLDulrW68bBY6zj5NVSciPTOc9efOto7P3wl/o5qOttlrtFPWf6OCWJe5ZXwvFY+sgA5Jzgde+gh/jPthU3FUX2rkSGkmjjC4cB6iXjxCKD0MBMlj4B9fGtUTSNI6mRwOA4qqDpQPGPTGfX9z+/wBF7qvse2oLgkFNRXCpEv1E9NJGY1jjKKOSL3yAwC2DkcicY1p6+b4a7Rl/7XsFOhPH5sdF92fblnQeu/pBeLLYNyOAKysheKrwPxOjFQ5PuxD9AAAAD01SdXTcUwb4fbe5LGjSvIAifl4SSk9enUqH9iNUvQNSFhubWe7U9csYlWMkSRE4EkbAq659MqSM/rqP00Fz3lZ6b6yS+0E6y2CoZZY/lMFZJJMkxhPyfcr94IAGMlhxMFSVxpq+irnhEYSpSWEKTxjjVieK5JJGc9n1U9k517bb3LVWIyw/Kjq6CfAnpJu0fsHP6H7R7g4GQR1qYnj2ReTCY7jcLNIOpDUxGeNFAOAipkk5xkkqPOFAIADt8Vq16z4i3WWCRg0BVI2Q4xwQZ7z/AMtQm3bVLeLnEKWf6QK2ZpgcCIYJyPHoD5IA8khQSJ2vp9nC7VFfXbiqbqkxMgWko3idZCc4IkADL48Mp1HX/dS1VF/SrHRrbbUGYlEP+SbJB+8+3S9dk8V5FuKkB135eaa63aOC2gC20EK01Lgk5VR5yQCfYEjPFVz3qtaaaBpppoGmmmgaaaaBpppoP//Z" alt="logo">
+            <div id="internalbox">
+                <u1>
+                    <li style="color:rgb(165 164 164);">GET IN TOUCH</li>
+                    <li>(480) 624-5200</li>
+                    <li>mail@discoverylandco.com</li>
+                </u1>
+                <u1>
+                    <li>About DLC</li>
+                    <li>Our World</li>
+                    <li>Experiences</li>
+                    <li>Gallery</li>
+                    <li>Press</li>
+                </u1>
+                <u1>
+                    <li>Magazine</li>
+                    <li>Careers</li>
+                    <li>Foundation</li>
+                    <li>Company</li>
+                    <li>Contact</li>
+                    <li>Privacy</li>
+                </u1>
+            </div>
+        </div>
+        <p>@ Discovery Land Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
