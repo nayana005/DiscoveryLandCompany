@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width:100%;
+    height:100vh;
+    position:relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(12,3,51,0.1),rgba(12,3,51,0.1));
+}
+nav{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 180px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+}
+.content{
+    text-align: left;
+    left: 63px;
+}
+.content h1{
+    margin-right: 40px;
+    font-size: 80px;
+    font-family:serif;
+    color: white;
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height:100%;
+    }
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(16 24 25);
+    color: white;
+    height: 20vh;
+    width: 100vw;
+}
+footer div div u1{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.image{
+    width: 100%;
+    height: 78%;
+}
+div div h3{
+    line-height: 0%;
+}
+#footerimg{
+    height: 50px;
+    width: 57px;
+    margin-left: 83px;
+}
+.footer-p p{
+    margin-left: 83px;
+    margin-top: 10px;
+    padding: 0px 0px 73.99px;
+    color: rgb(165 164 164);
+}
+div div span{
+    color:rgb(165 164 164) ;
+}
+u1 li, nav div img:hover{
+    cursor: pointer;
+}
+#box{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.text{
+    vertical-align: middle;
+}
+#internalbox{
+    display: flex;
+    column-gap: 50px;
+    margin-right: 50px;
+}
+.intro p{
+    display: block;
+    text-align: center;
+    position:relative;
+    margin-left:20px;
+    margin-top: 120px;
+    font-size: 40px;
+    font-family:serif;
+    color: black;
+    width: 100%;
+    height: 70%;
+}
+.text h3{
+    font-size: 43px;
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    padding: 50px;
+    margin-left:20px;
+}
+.text p{
+    display: inline-block;
+    font-size: 25px;
+    padding: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.text h3{
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.img img{
+    width: 18vw;
+    height:100vh;
+    padding:30px;
+}
+ .text, .img img{
+    width:46%;
+    height:100vh;
+    float:left;
+    border: 1px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.golf-container{
+    background: lightgrey;
+    width: 100vw;
+    height: 140vh;
+
+}
+.SubHeading{
+    text-align: left;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 70px;
+
+}
+.golf-container p{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 24px;
+}
+.p-golf-container button{
+    margin-top: 40px;
+    padding: 18px 40.554px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+
+}
+.p-golf-container{
+    width: 35vw;
+    height: 55vh;
+    border: 2px solid white;
+    background-color: wheat;
+    margin-left: 1000px;
+    position: relative;
+    bottom: 780px;
+    overflow-wrap: break-word;
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.golf-container img{
+    margin-top: 45px;
+    height: 100vh;
+    width: 70vw;
+}
+
+.pursuits-container{
+    background: lightgrey;
+    width: 100vw;
+    height: 140vh;
+
+}
+.SubHeading{
+    text-align: left;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 70px;
+
+}
+.pursuits-container p{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 24px;
+}
+.p-pursuits-container button{
+    margin-top: 40px;
+    padding: 18px 40.554px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+
+}
+.p-pursuits-container{
+    width: 35vw;
+    height: 60vh;
+    border: 2px solid white;
+    background-color: wheat;
+    margin-left: 200px;
+    position: relative;
+    bottom: 780px;
+    overflow-wrap: break-word;
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pursuits-container img{
+    margin-top: 800px;
+    height: 100vh;
+    width: 70vw;
+    margin-left: 580px;
+}
+
+.wellness-container{
+    background: lightgrey;
+    width: 100vw;
+    height: 170vh;
+
+}
+.SubHeading{
+    text-align: left;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 70px;
+
+}
+.wellness-container p{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 24px;
+}
+.p-wellness-container button{
+    margin-top: 40px;
+    padding: 18px 40.554px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+
+}
+.p-wellness-container{
+    width: 35vw;
+    height: 60vh;
+    border: 2px solid white;
+    background-color: wheat;
+    margin-left: 1050px;
+    position: relative;
+    bottom: 780px;
+    overflow-wrap: break-word;
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wellness-container img{
+    margin-top: 600px;
+    height: 100vh;
+    width: 70vw;
+}
+
+.our-world h6{
+    margin-left: 680px;
+    margin-top: auto;
+    font-size: 70px;
+    font-family:serif;
+    color: black;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.our-world{
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(rgba(36, 37, 44, 0),rgba(37, 38, 46, 0)),url(https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    margin-top: 60px;
+
+}
+.our-world h6{
+    font-size: 80px;
+    margin-top: 140px;
+    margin-left: 760px;
+    color: white;
+
+}
+
+.our-world button{
+    font-size: 30px;
+    margin-left: 860px;
+    color: white;
+    background-color:transparent;
+    padding: 18px 40.554px;
+    margin-top: 30px;
+}
+
+
